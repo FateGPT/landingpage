@@ -1775,3 +1775,8 @@ section {
   color: #fff;
   background: var(--main-bg-green);
 }
+
+.download-btn:hover {
+  color: #fff;
+  background: rgb(121 186 121 / 80%);
+}
