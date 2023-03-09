@@ -14,11 +14,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       # Runs a single command using the runners shell
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.2
         with:
           switches: -avzh
+          path: ./
           remote_path: /srv/emailgpt-landingpage/
           remote_host: ${{ secrets.HOST }}
           remote_user: ${{ secrets.USERNAME }}
