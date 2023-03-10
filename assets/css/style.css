@@ -817,8 +817,10 @@ section {
 
 .about .video-box {
   
-  background: url("../img/mailbox.svg") center center no-repeat, var(--main-bg-buy);
+  /* background: url("../img/mailbox.svg") center center no-repeat, var(--main-bg-buy); */
   /* background: url("../img/about.png") center center no-repeat; */
+  background: url("../img/Email.png") center center no-repeat;
+
   background-size: contain;
   min-height: 300px;
   max-width: 500px;
@@ -1779,4 +1781,7 @@ section {
 .download-btn:hover {
   color: #fff;
   background: rgb(121 186 121 / 80%);
+}
+.download-btn.disable{
+  background: var(--main-bg-grey);
 }
