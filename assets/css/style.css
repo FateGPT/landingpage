@@ -765,6 +765,9 @@ section {
 
 .about .icon-box {
   margin-top: 40px;
+  /* background: #000; */
+  /* color: #eee; */
+  vertical-align: middle ;
 }
 
 .about .icon-box .icon {
@@ -813,6 +816,10 @@ section {
   margin-left: 85px;
   line-height: 24px;
   font-size: 14px;
+  /* background: #000; */
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .about .video-box {
