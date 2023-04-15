@@ -58,7 +58,9 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background:  var(--main-bg-white);
+  background:  url("../img/Login.png");
+  background-size: cover;
+  background-position: center;
 }
 
 #preloader:before {
@@ -66,13 +68,22 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid  var(--main-bd-yellow);
+  border: 6px solid  var(--main-bg-black);
   border-top-color: var(--main-bd-yellow);
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
+
+  -webkit-animation: animate-preloader 3s linear infinite;
+  animation: animate-preloader 3s linear infinite;
+}
+#preloader:after {
+  content: "";
+  position: fixed;
+  top: calc(60% - 30px);
+  left: calc(40% + 10px);
+  font-size: 2rem;
+  color: var(--main-bg-white);
 }
 
 @-webkit-keyframes animate-preloader {
