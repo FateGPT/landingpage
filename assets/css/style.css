@@ -845,9 +845,9 @@ section {
   background: url("../img/dailyhoroscope.png") center center no-repeat;
   background-color: #333;
   background-size: contain;
-  min-height: 500px;
+  min-height: 600px;
   max-width:400px;
-  max-height: 500px;
+  max-height: 600px;
   /* max-height: 500px; */
   border-radius: 40px;
 }
@@ -1816,6 +1816,27 @@ section {
 .specialWord{
   font-family: 'Griffy', cursive;
 }
-/* .hometop{
-  background: #ff0000 ;
-} */
+.dialog{
+  position: relative;
+	background-color: var(--main-bg-black);
+  color: var(--main-bd-yellow);
+	padding: 1.125em 1.5em;
+	font-size: 1rem;
+	border-radius: 1rem;
+  box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+}
+.dialog:first{
+ margin-bottom: 20px;
+}
+.dialog::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	left: 1.5em; 
+	border: .75rem solid transparent;
+	border-top: none;
+	border-bottom-color:var(--main-bg-black);
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
