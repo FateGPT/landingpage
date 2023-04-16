@@ -19,8 +19,7 @@
   --main-bd-yellow:#F2E5D1;
 }
 body {
-  /* font-family: 'Griffy', cursive; */
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   letter-spacing: 6%;
   /* font-family: "Open Sans", sans-serif; */
   color: var(--main-bg-buy) ;
@@ -43,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   /* font-family: "Montserrat", sans-serif; */
 }
 
@@ -223,7 +222,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -488,7 +487,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -686,7 +685,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 .section-title h2::after {
@@ -703,8 +702,8 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  /* text-transform: uppercase; */
+  /* font-family: "Poppins", sans-serif; */
   color: var(--main-bg-black);
 }
 
@@ -1047,7 +1046,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 14px;
 }
 
@@ -1319,7 +1318,7 @@ section {
   font-size: 36px;
   color: var(--main-bd-yellow);
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   margin-bottom: 20px;
 }
 
@@ -1387,7 +1386,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1440,7 +1439,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1679,7 +1678,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 #footer .footer-top .social-links a {
