@@ -73,6 +73,11 @@ h6 {
   width: 60px;
   height: 60px;
 
+  /* -webkit-animation-name: animate-preloader;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-fill-mode: infinite; */
   -webkit-animation: animate-preloader 3s linear infinite;
   animation: animate-preloader 3s linear infinite;
 }
