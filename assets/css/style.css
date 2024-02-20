@@ -854,10 +854,9 @@ section {
 }
 
 .about .video-box {
-  
   /* background: url("../img/mailbox.svg") center center no-repeat, var(--main-bg-buy); */
   /* background: url("../img/about.png") center center no-repeat; */
-  background: url("../img/dailyhoroscope.png") center center no-repeat;
+  background: url("../img/dailyhoroscope.jpg") center center no-repeat;
   background-color: #333;
   background-size: contain;
   min-height: 600px;
